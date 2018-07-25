@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+</head>
+<body>
+    <div id="onLoad"></div>
+    <div class="contentBox " style="opacity: 0;">
+        <img src="res/logo.png" class="logo">
+        <div class="vertical-line"></div>
+        <hr>
+            <div>
+                <p class="headerText1">HELLO</p>
+                <p class="topicText">
+                    This is some kind of template, i created, because World of Warcraft Battle for Azeroth hasn't come out yet and I didn't know what to do.
+                    Original author is <a href="https://html5up.net/dimension">here</a>.
+                </p>
+            </div>
+        <hr>
+        <div class="vertical-line"></div>
+        <div class="buttonBlock">
+            <button id="textBoxButton1">INTRO</button>
+            <button id="textBoxButton2">WORK</button>
+            <button id="textBoxButton3">ABOUT</button>
+            <button id="textBoxButton4">CONTACT</button>
+        </div>
+    </div>
+    <div class="hiddenContent one hidden">
+        <h1 class="headerText2">INTRO</h1>
+        <div class="closeBtn" onclick="document.dispatchEvent(new Event('click'))"></div>
+        <img src="res/img1.jpg" class="boxImage">
+        <p class="topicText">
+            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris.
+            Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis.
+        </p>
+        <br>
+        <p class="topicText">
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra.
+            Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+        </p>
+    </div>
+    <div class="hiddenContent two hidden">
+        <h1 class="headerText2">WORK</h1>
+        <div class="closeBtn" onclick="document.dispatchEvent(new Event('click'))"></div>
+        <img src="res/img2.jpg" class="boxImage">
+        <p class="topicText">
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra.
+            Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+        </p>
+    </div>
+    <div class="hiddenContent three hidden">
+        <h1 class="headerText2">ABOUT</h1>
+        <div class="closeBtn" onclick="document.dispatchEvent(new Event('click'))"></div>
+        <img src="res/img3.jpg" class="boxImage">
+        <p class="topicText">
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra.
+            Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+        </p>
+    </div>
+    <div class="hiddenContent four hidden">
+        <h1 class="headerText2">CONTACT</h1>
+        <div class="closeBtn" onclick="document.dispatchEvent(new Event('click'))"></div>
+        <form class="form1" id="form1">
+            <label for="formName">NAME</label>
+            <input type="text" id="formName">
+            <label for="formEmail">EMAIL</label>
+            <input type="email" id="formEmail">
+            <label for="formText">MESSAGE</label>
+            <textarea form="form1" id="formText"></textarea>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
